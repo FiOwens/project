@@ -1,0 +1,61 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 1px dotted red;
+	
+	}
+
+h1{
+    color: black;
+}
+.header{
+	background-color: lightsalmon;
+	height:100px;
+}
+
+.search{
+	background-color: lightgreen;
+	height:350px;
+}
+.search img{
+	height:50px;
+	width:50px;
+}
+.top img{
+    height:80px;
+    width:80px;
+}
+
+.top ul li{
+    margin-left:30px;
+	list-style-type:none;
+}
+.pets{
+	height:300px;
+
+}
+.pets img{
+	height:220px;
+	width:220px;
+}
+
+@media only screen and (max-width: 480px){
+    .pets{
+		background-color: black;
+		color:white;
+	}
+	.vid{
+		background-color: black;
+		color:white;
+	}
+}
+@media only screen and (min-width: 481px){
+   
+}
+@media only screen and (min-width: 1024px){
+    
+}
